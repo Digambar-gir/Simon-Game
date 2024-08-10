@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    height: 4rem;
+}
+
+.main{
+    height: 11rem;
+    width: 14rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main > div{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 20%;
+    border: 3px solid;
+    margin: 0.2rem 0.2rem 0.2rem 0.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    background-color: rgb(202, 106, 106);
+}
+
+.second{
+    background-color: rgb(61, 160, 160);
+}
+
+.third{
+    background-color: orange;
+}
+
+.fourth{
+    background-color: rgb(88, 88, 210);
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash{
+    background-color: rgb(0, 0, 0);
+}
+
+.high{
+    margin-top: 3rem;
+    text-align: center;
+}
